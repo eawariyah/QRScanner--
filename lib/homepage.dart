@@ -120,6 +120,17 @@ class _HomePageState extends State<HomePage> {
                         label: 'Me',
                       ),
                     ],
+                    onTap: (index) {
+                      if (index == 0) {
+                        Navigator.pushNamed(context, "/second");
+                      }
+                      if (index == 1) {
+                        Navigator.pushNamed(context, "/third");
+                      }
+                      if (index == 2) {
+                        Navigator.pushNamed(context, "/fourth");
+                      }
+                    },
                   ),
                 ],
               ),

@@ -62,20 +62,33 @@ class _ScanCodeState extends State<ScanCode> {
                 ),
               ),
               const Spacer(),
-              BottomNavigationBar(items: const [
-                BottomNavigationBarItem(
-                  icon: Icon(Icons.add),
-                  label: 'Create form',
-                ),
-                BottomNavigationBarItem(
-                  icon: Icon(Icons.qr_code),
-                  label: 'Scan form',
-                ),
-                BottomNavigationBarItem(
-                  icon: Icon(Icons.person),
-                  label: 'Me',
-                ),
-              ]),
+              BottomNavigationBar(
+                items: const [
+                  BottomNavigationBarItem(
+                    icon: Icon(Icons.add),
+                    label: 'Create form',
+                  ),
+                  BottomNavigationBarItem(
+                    icon: Icon(Icons.qr_code),
+                    label: 'Scan form',
+                  ),
+                  BottomNavigationBarItem(
+                    icon: Icon(Icons.person),
+                    label: 'Me',
+                  ),
+                ],
+                onTap: (index) {
+                  if (index == 0) {
+                    Navigator.pushNamed(context, "/second");
+                  }
+                  if (index == 1) {
+                    Navigator.pushNamed(context, "/third");
+                  }
+                  if (index == 2) {
+                    Navigator.pushNamed(context, "/fourth");
+                  }
+                },
+              ),
             ],
           ),
         ));

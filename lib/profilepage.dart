@@ -120,6 +120,17 @@ class _ProfilePageState extends State<ProfilePage> {
                       label: 'Me',
                     ),
                   ],
+                  onTap: (index) {
+                    if (index == 0) {
+                      Navigator.pushNamed(context, "/second");
+                    }
+                    if (index == 1) {
+                      Navigator.pushNamed(context, "/third");
+                    }
+                    if (index == 2) {
+                      Navigator.pushNamed(context, "/fourth");
+                    }
+                  },
                 ),
               ],
             ),
