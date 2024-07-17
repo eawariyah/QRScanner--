@@ -112,7 +112,7 @@ class _CreateFormState extends State<CreateForm> {
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(10),
                               image: const DecorationImage(
-                                image: AssetImage('assets/Black.png'),
+                                image: AssetImage('assets/Quiz.png'),
                                 fit: BoxFit.cover,
                               ),
                             ),
@@ -156,7 +156,7 @@ class _CreateFormState extends State<CreateForm> {
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(10),
                               image: const DecorationImage(
-                                image: AssetImage('assets/Black.png'),
+                                image: AssetImage('assets/Invitation.png'),
                                 fit: BoxFit.cover,
                               ),
                             ),
@@ -202,7 +202,7 @@ class _CreateFormState extends State<CreateForm> {
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(10),
                               image: const DecorationImage(
-                                image: AssetImage('assets/Black.png'),
+                                image: AssetImage('assets/SecureForm.png'),
                                 fit: BoxFit.cover,
                               ),
                             ),
@@ -212,7 +212,7 @@ class _CreateFormState extends State<CreateForm> {
                                   bottom: 10,
                                   right: 10,
                                   child: Text(
-                                    'Check-in',
+                                    'Secure Form',
                                     style: TextStyle(
                                       color: Colors.white,
                                       fontSize: 20,
