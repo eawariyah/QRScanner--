@@ -1,4 +1,5 @@
 import 'package:qrscannerplusplus/createform.dart';
+import 'package:qrscannerplusplus/forms/secureform.dart';
 import 'package:qrscannerplusplus/homepage.dart';
 import 'package:qrscannerplusplus/scancode.dart';
 import 'package:qrscannerplusplus/profilepage.dart';
@@ -22,6 +23,7 @@ class LandingPage extends StatelessWidget {
         '/second': (context) => const CreateForm(),
         '/third': (context) => const ScanCode(),
         '/fourth': (context) => const ProfilePage(),
+        '/fifth': (context) => const SecureSubForm(),
       },
     );
   }

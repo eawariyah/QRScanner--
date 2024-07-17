@@ -131,6 +131,9 @@ class _HomePageState extends State<HomePage> {
                         Navigator.pushNamed(context, "/fourth");
                       }
                     },
+                    backgroundColor: Colors.black,
+                    selectedItemColor: Colors.white,
+                    unselectedItemColor: Colors.white54,
                   ),
                 ],
               ),

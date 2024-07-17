@@ -68,6 +68,11 @@ flutter:
     - assets/Invitation.png
     - assets/SecureForm.png
 
+    - assets/grid.png
+    - assets/MultiCheckbox.png
+    - assets/radio.png
+    - assets/TextInput.png
+
 
     #   - images/a_dot_burr.jpeg
     # - images/a_dot_ham.jpeg

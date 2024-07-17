@@ -51,6 +51,20 @@ class MyHome extends StatelessWidget {
                     label: 'Me',
                   ),
                 ],
+                onTap: (index) {
+                  if (index == 0) {
+                    Navigator.pushNamed(context, "/second");
+                  }
+                  if (index == 1) {
+                    Navigator.pushNamed(context, "/third");
+                  }
+                  if (index == 2) {
+                    Navigator.pushNamed(context, "/fourth");
+                  }
+                },
+                backgroundColor: Colors.black,
+                selectedItemColor: Colors.white,
+                unselectedItemColor: Colors.white54,
               ),
             ],
           ),
