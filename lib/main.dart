@@ -1,6 +1,6 @@
 import 'package:qrscannerplusplus/createform.dart';
 import 'package:qrscannerplusplus/forms/secureform.dart';
-import 'package:qrscannerplusplus/homepage.dart';
+import 'package:qrscannerplusplus/preform/secureformsharable.dart';
 import 'package:qrscannerplusplus/scancode.dart';
 import 'package:qrscannerplusplus/profilepage.dart';
 import 'package:flutter/material.dart';
@@ -19,11 +19,12 @@ class LandingPage extends StatelessWidget {
       title: 'Routing the pages',
       initialRoute: '/',
       routes: {
-        '/': (context) => const HomePage(),
+        '/': (context) => const CreateForm(),
         '/second': (context) => const CreateForm(),
         '/third': (context) => const ScanCode(),
         '/fourth': (context) => const ProfilePage(),
         '/fifth': (context) => const SecureSubForm(),
+        '/sixth': (context) => const SecureFormSharable(),
       },
     );
   }
