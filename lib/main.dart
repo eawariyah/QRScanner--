@@ -1,6 +1,7 @@
 import 'package:qrscannerplusplus/createform.dart';
 import 'package:qrscannerplusplus/forms/secureform.dart';
-import 'package:qrscannerplusplus/preform/secureformsharable.dart';
+import 'package:qrscannerplusplus/preform/secureformpreform.dart';
+import 'package:qrscannerplusplus/sharablelinkpage/secureformsharable.dart';
 import 'package:qrscannerplusplus/scancode.dart';
 import 'package:qrscannerplusplus/profilepage.dart';
 import 'package:flutter/material.dart';
@@ -25,6 +26,7 @@ class LandingPage extends StatelessWidget {
         '/fourth': (context) => const ProfilePage(),
         '/fifth': (context) => const SecureSubForm(),
         '/sixth': (context) => const SecureFormSharable(),
+        '/seventh': (context) => const SecureFormPreForm(),
       },
     );
   }

@@ -52,9 +52,11 @@ class _CreateFormState extends State<CreateForm> {
                   children: [
                     GestureDetector(
                       onTap: () {
-                        Navigator.of(context).push(MaterialPageRoute(
-                          builder: (context) => const SecureForm(),
-                        ));
+                        Navigator.pushNamed(context, "/seventh");
+
+                        // Navigator.of(context).push(MaterialPageRoute(
+                        //   builder: (context) => const SecureForm(),
+                        // ));
                       },
                       child: Card(
                         elevation: 5,
